@@ -1,3 +1,9 @@
+<#
+.DESCRIPTION
+    Skrypt oblicza SHA256 dla pliku, wysyła zapytanie do VirusTotal
+    i daje info czy plik jest bezpieczny.
+#>
+
 $plikDoSprawdzenia = "C:\Docelowy\test.txt"
 $apiKey = "20377c6efc8b5dc2eb4=6494e0af2f7217c0b978e17c5ba82c3b9cba9c4730cf36"
 
