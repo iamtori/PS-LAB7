@@ -1,3 +1,9 @@
+<#
+.DESCRIPTION
+    Skrypt tworzy folder docelowy jeśli nie istnieje. Następnie monitoruje folder źródłowy
+    i przenosi każdy nowy plik do folderu docelowego.
+#>
+
 $folderZrodlowy = "C:\DoMonitorowania"
 $folderDocelowy = "C:\Docelowy"
 
